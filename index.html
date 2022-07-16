@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta class="description" content="Valeska is a front-end developer based in Berlin, Germany.">
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://kit.fontawesome.com/1b9a35f4e4.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;800&family=Work+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Valeska Kairies - Front-end developer</title>
+  </head>
+  <body>
+    <nav
+      class="
+        navbar navbar-expand-lg navbar-light
+        bg-light
+        sticky-top
+        d-flex
+        justify-content-between
+      "
+    >
+      <div class="container-fluid">
+        <a class="navbar-brand" title="Homepage" href="/">Valeska Kairies</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse justify-content-end"
+          id="navbarNavDropdown"
+        >
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="/" title="Homepage">Home</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+                title="Valeskas work"
+              >
+                Work
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Yoghurt app</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="/weather-app.html" title="Weather app">Weather app</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Dictionary app</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/about.html" title="About Valeska">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/contact.html" title="Contact Valeska">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="hero">
+      <div class="row">
+        <div class="col-lg-5 hero-left">
+          <div class="blue-bracket"></div>
+          <h1 class="mb-5">
+            Hi, my name is Valeska.
+            I'm a UI/UX designer based in Berlin
+          </h1>
+          <a href="mailto:valeska.kairies@gmail.com" class="primary-button">Contact me</a>
+        </div>
+        <div class="col-lg-7 d-none d-lg-block">
+          <img
+            src="/images/hero-min.png"
+            class="img-fluid hero-image"
+            alt="Hero image of weather app"
+          />
+        </div>
+      </div>
+    </div>
+    <div class="projects mt-5">
+      <div class="container">
+        <h2 class="project-title">My projects</h2>
+        <div class="row project">
+          <div class="col-lg-8">
+            <div class="work-number">
+              <h3>01</h3>
+            </div>
+            <img
+              src="/images/kakei project-min.png"
+              alt="Kakei landing page"
+              class="img-fluid project-image"
+            />
+          </div>
+          <div class="col-lg-4 project-description description-right">
+            <h4 class="mb-4">HTML, CSS</h4>
+            <h5 class="mb-4">Kakei landing page</h5>
+            <p class="mb-5">A page I designed for my UI course and brought to life with HTML and CSS. The project is momentarily in development and will be launched soon.
+            </p>
+            <a href="#" class="view-more-link">View more</a>
+          </div>
+        </div>
+
+        <div class="row project">
+          <div
+            class="
+              col-lg-4
+              project-description
+              description-left
+              order-2 order-lg-1
+            "
+          >
+            <h4 class="mb-4">HTML, CSS, JS</h4>
+            <h5 class="mb-4">Weather App</h5>
+            <p class="mb-5">
+             Mainly focused on HTML and CSS, I also used JavaScript and the openweather-API to build a web based weather app. I designed my own weather icons using Figma.
+            </p>
+            <a href="/weather-app.html" title="To weather project" class="view-more-link">View more</a>
+          </div>
+          <div class="col-lg-8 order-1 order-lg-2">
+            <div class="work-number">
+              <h3>02</h3>
+            </div>
+            <img
+              src="/images/weather-app.png"
+              alt="Weather app"
+              class="img-fluid project-image"
+            />
+          </div>
+        </div>
+
+        <!-- <div class="row project">
+          <div class="col-lg-8">
+            <div class="work-number">
+              <h3>03</h3>
+            </div>
+            <img
+              src="/images/dictionary-project.png"
+              alt="dictionary-project"
+              class="img-fluid project-image"
+            />
+          </div>
+          <div class="col-lg-4 project-description description-right">
+            <h4 class="mb-4">React</h4>
+            <h5 class="mb-4">Dictionary App</h5>
+            <p class="mb-5">
+              Coming soon
+            </p>
+            <a href="#" class="view-more-link">View more</a>
+          </div>
+        </div> -->
+      </div>
+    </div>
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 d-flex justify-content-center justify-content-lg-end">       
+            <a href="https://www.linkedin.com/in/valeska-kairies/" target="_blank"> 
+              <ul class="d-flex justify-content-center justify-content-lg-right">
+              <li>
+                  <i class="fab fa-linkedin-in"></i></li>
+                  <p>LinkedIn</p>
+              </ul>
+            </a>
+            <a href="https://github.com/oostenhuit" target="_blank">
+              <ul class="d-flex justify-content-center">
+              <li>
+                  <i class="fab fa-github"></i></li>
+                  <p>Github</p>
+              </ul>
+            </a>
+           </div>  
+        <div class="col-lg-6 d-flex justify-content-center justify-content-lg-start
+        ">
+        <a href="https://www.instagram.com/valeskakairies/" target="_blank">
+        <ul class="d-flex justify-content-center">
+          <li>
+               <i class="fab fa-instagram"></i></li>
+               <p>Instagram</p>
+        </ul>
+        </a>
+        <a href="mailto:valeska.kairies@gmail.com" target="_blank">
+        <ul class="d-flex">
+          <li>
+               <i class="far fa-envelope"></i></li>
+               <p>Mail</p>
+        </ul>
+        </a>
+      </div>
+
+      
+              </div>
+              </div>
+       </div>
+<p class="text-center pb-5 final-note">This project was build by me, Valeska, and it is <a href="https://github.com/oostenhuit/portfolio-project-shecodes"  target="_blank">open-sourced</a></p>
+    </footer>
+  </body>
+</html>
