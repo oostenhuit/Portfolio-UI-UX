@@ -1,6 +1,6 @@
 :root {
-  --body-font: "Work Sans", sans-serif;
-  --header-font: "Syne", sans-serif;
+  /* --body-font: "Work Sans", sans-serif;
+  --header-font: "Syne", sans-serif; */
   --primary-color: #d28eb1;
   --main-grey: #d9d9d9;
   --secondary-color: #6198ad;
@@ -110,6 +110,11 @@ footer a:hover {
   background-color: var(--font-color);
   height: 4px;
   margin-bottom: 40px;
+}
+.blue-line {
+  height: 2px;
+  background-color: var(--font-color);
+  margin: 24px;
 }
 .core-image {
   padding: 30px;
