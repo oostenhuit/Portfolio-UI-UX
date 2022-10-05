@@ -117,12 +117,13 @@ footer a:hover {
 
 .hero-left {
   margin-top: 150px;
+  max-width: 420px;
 }
 .hero-left h1 {
   font-family: var(--header-font);
-  font-size: 37px;
-  font-weight: 800;
-  max-width: 450px;
+  font-size: 38px;
+  font-weight: 400;
+  text-align: center;
 }
 
 .blue-bracket {
