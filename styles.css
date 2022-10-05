@@ -1,12 +1,28 @@
 :root {
   --body-font: "Work Sans", sans-serif;
   --header-font: "Syne", sans-serif;
-  --primary-color: #d28eb1;
+  --primary-color: #f5f5f3;
   --main-grey: #d9d9d9;
   --secondary-color: #6198ad;
   --font-color: #253b5b;
   --pale-rose: #dbc3cc;
 }
+
+@font-face {
+  font-family: Syne;
+  src: url("fonts/Syne-Bold.ttf") format("ttf");
+  font-weight: 700;
+}
+@font-face {
+  font-family: Syne;
+  src: url("fonts/Syne-ExtraBold.woff") format("woff");
+  font-weight: 800;
+}
+@font-face {
+  font-family: Syne;
+  src: url("fonts/Syne-Regular.woff") format("woff");
+}
+
 h1 {
   font-family: var(--header-font);
   font-size: 38px;
@@ -38,8 +54,11 @@ h5 {
 nav a {
   font-family: var(--body-font);
 }
-nav .navbar-brand {
+
+.navbar-light .navbar-brand {
   font-family: var(--header-font);
+  font-size: 28px;
+  color: var(--font-color);
 }
 nav .active {
   font-weight: bold;
@@ -93,6 +112,7 @@ footer a:hover {
 
 .hero {
   padding: 100px;
+  background-color: var(--primary-color);
 }
 
 .hero-left {
@@ -101,7 +121,7 @@ footer a:hover {
 .hero-left h1 {
   font-family: var(--header-font);
   font-size: 37px;
-  font-weight: 600;
+  font-weight: 800;
   max-width: 450px;
 }
 
@@ -137,7 +157,7 @@ footer a:hover {
 .primary-button {
   color: black;
   font-size: 16px;
-  letter-spacing: 1px;
+  letter-spacing: 4%;
   text-transform: uppercase;
   padding: 16px;
   border: 1px solid var(--font-color);
