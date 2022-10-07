@@ -140,7 +140,7 @@ footer a:hover {
 }
 
 .mail-link {
-  color: white;
+  color: var(--font-color);
 }
 .mail-link:hover {
   color: var(--secondary-color);
