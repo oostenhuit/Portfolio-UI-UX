@@ -111,7 +111,7 @@ footer a:hover {
 }
 
 .hero {
-  padding: 100px;
+  padding: 30px;
   background-color: var(--primary-color);
 }
 
@@ -126,17 +126,12 @@ footer a:hover {
   text-align: center;
 }
 
-.blue-bracket {
-  max-width: 80px;
-  background-color: var(--font-color);
-  height: 1px;
-  margin-bottom: 40px;
-}
-.blue-line {
+/* .blue-line {
   height: 2px;
   background-color: var(--font-color);
   margin: 24px;
-}
+} */
+
 .core-image {
   padding: 30px;
   margin: 20px 0;
