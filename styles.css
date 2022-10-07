@@ -156,23 +156,19 @@ footer a:hover {
   margin-right: 32 px;
 }
 .primary-button {
-  color: black;
+  color: var(--font-color);
   font-size: 16px;
-  letter-spacing: 4%;
+  letter-spacing: 2px;
   text-transform: uppercase;
   padding: 16px;
   border: 1px solid var(--font-color);
 }
 
 .primary-button:hover {
-  color: var(--pale-rose);
-  background-color: transparent;
-  border: 2px solid var(--primary-color);
+  color: var(--primary-color);
+  background-color: var(--font-color);
   text-decoration: none;
-  font-size: 14px;
-  letter-spacing: 2px;
-  text-transform: uppercase;
-  padding: 15px;
+  transition: ease-in-out 200ms;
 }
 
 .project {
