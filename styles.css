@@ -28,6 +28,12 @@
   src: url("fonts/WorkSans-Regular.woff") format("woff");
 }
 
+@font-face {
+  font-family: WorkSans;
+  src: url("fonts/WorkSans-Light.ttf") format("woff");
+  font-weight: 300;
+}
+
 h1 {
   font-family: var(--header-font);
   font-size: 38px;
@@ -58,15 +64,17 @@ h5 {
 
 nav a {
   font-family: var(--body-font);
-  font-size: 21px;
+  font-size: 16px;
   font-weight: 400;
   color: var(--font-color) !important;
+  text-transform: uppercase;
 }
 
 .navbar-light .navbar-brand {
   font-family: var(--header-font);
-  font-size: 28px;
+  font-size: 21px;
   color: var(--font-color);
+  text-transform: none;
 }
 nav .active {
   font-weight: bold;
