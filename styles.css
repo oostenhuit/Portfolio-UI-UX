@@ -131,7 +131,9 @@ footer a:hover {
   background-color: var(--font-color);
   margin: 24px;
 } */
-
+.hero-image {
+  height: 80%;
+}
 .core-image {
   padding: 30px;
   margin: 20px 0;
