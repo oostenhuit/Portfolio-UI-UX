@@ -465,5 +465,6 @@ footer a:hover {
   header h1 {
     font-size: 26px;
     margin: 0 30px;
+    line-height: 35px;
   }
 }
