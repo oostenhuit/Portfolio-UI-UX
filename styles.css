@@ -5,9 +5,13 @@
   --main-grey: #d9d9d9;
   --secondary-color: #6198ad;
   --font-color: #253b5b;
-  --pale-rose: #dbc3cc;
+  --link-color: #d28eb1;
 }
-
+@font-face {
+  font-family: Syne;
+  src: url("fonts/Syne-SemiBold.woff") format("woff");
+  font-weight: 600;
+}
 @font-face {
   font-family: Syne;
   src: url("fonts/Syne-Bold.ttf") format("ttf");
@@ -33,16 +37,23 @@
   src: url("fonts/WorkSans-Light.ttf") format("woff");
   font-weight: 300;
 }
+body {
+  font-family: var(--body-font);
+}
 
-h1 {
+h1,
+h2,
+h5,
+h6 {
   font-family: var(--header-font);
+  color: var(--font-color);
+}
+h1 {
   font-size: 38px;
   font-weight: light;
-  color: var(--font-color);
   line-height: 46px;
 }
 h2 {
-  font-family: var(--header-font);
   font-weight: medium;
   font-size: 50px;
 }
@@ -52,10 +63,16 @@ h4 {
   text-transform: uppercase;
 }
 h5 {
-  font-size: 24px;
-  line-height: 30px;
-  border-left: black solid 2px;
-  padding-left: 32px;
+  font-size: 48px;
+  line-height: 48px;
+  border-left: var(--font-color) solid 1px;
+  padding-left: 20px;
+  font-weight: 600;
+}
+
+h6 {
+  font-size: 21px;
+  font-weight: 600;
 }
 
 .nav-item {
@@ -63,7 +80,6 @@ h5 {
 }
 
 nav a {
-  font-family: var(--body-font);
   font-size: 16px;
   font-weight: 400;
   color: var(--font-color) !important;
@@ -81,7 +97,6 @@ nav .active {
 }
 
 p {
-  font-family: var(--body-font);
   font-size: 16px;
   line-height: 21px;
 }
@@ -95,7 +110,6 @@ footer li {
 }
 
 footer p {
-  font-style: var(--body-font);
   font-size: 12px;
   line-height: 20px;
   letter-spacing: 1px;
@@ -236,32 +250,34 @@ header .layout-grid {
   margin: 100px 0;
 }
 .project-image {
-  position: relative;
-  border-radius: 5px;
+  /* position: relative;
+  */
+  border: var(--font-color) 1px solid;
 }
 
 .project-description {
-  margin-top: 100px;
+  margin-top: 50px;
   height: 100%;
-  background-color: white;
-  padding: 32px 60px;
-  border-radius: 5px;
-  box-shadow: 10px 10px 70px rgba(0, 0, 0, 0.2);
-  position: relative;
+  color: var(--font-color);
 }
 
-.description-right {
+/* .description-right {
   left: -100px;
-}
+} */
 .description-left {
   left: 100px;
   z-index: 1;
 }
+.main-projects-type {
+  padding-left: 10px;
+  line-height: 28px;
+}
+
 .project-title {
-  margin: 150px 0 100px 0;
+  margin: 180px 0 80px 0;
 }
 .view-more-link {
-  color: var(--primary-color);
+  color: var(--link-color);
   font-size: 14px;
   letter-spacing: 2px;
   text-transform: uppercase;
@@ -295,9 +311,7 @@ header .layout-grid {
   line-height: 20px;
 }
 .work-number {
-  margin-top: -60px;
-  position: absolute;
-  z-index: 1;
+  padding-bottom: 30px;
 }
 .work-number h3 {
   font-family: var(--header-font);
