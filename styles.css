@@ -115,7 +115,7 @@ footer {
   align-items: center;
   flex-direction: row;
 }
-footer .container {
+.social-container {
   margin-left: auto;
   margin-right: auto;
   max-width: 940px;
@@ -439,6 +439,17 @@ footer a:hover {
   .values img {
     padding: 20px 80px 0;
     margin: 10px 0;
+  }
+}
+@media (max-width: 767px) {
+  .social-container {
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+
+  footer .social-link {
+    padding: 12px;
   }
 }
 @media (max-width: 479px) {
