@@ -78,6 +78,10 @@ h6 {
   padding: 20px 30px;
 }
 
+.navbar {
+  background-color: var(--primary-color) !important;
+}
+
 nav a {
   font-size: 16px;
   font-weight: 400;
@@ -191,10 +195,6 @@ footer a:hover {
 /* HOME */
 .border-bottom {
   border-bottom: 1px solid var(--font-color) !important;
-}
-
-header .layout-grid {
-  grid-row-gap: 16px;
 }
 
 .home-header-component {
@@ -380,7 +380,21 @@ header .layout-grid {
     margin: 20px;
     padding: 0px;
   }
-
+  .home-header-component {
+    min-height: auto;
+    padding-top: 6rem;
+    grid-auto-flow: row;
+    grid-row-gap: 6rem;
+  }
+  .home-header-content {
+    padding-right: 1.25rem;
+    padding-left: 1.25rem;
+  }
+  .home-header-image-wrapper {
+    height: 24rem;
+  }
+  .home-header-background-image {
+  }
   .about-section {
     padding: 20px;
   }
@@ -402,11 +416,6 @@ header .layout-grid {
     text-align: center;
   }
 
-  .hero {
-    background-color: var(--main-grey);
-    padding: 0 20px 70px;
-  }
-
   .project-description {
     left: 0px;
     margin: 10px 16px;
@@ -422,5 +431,10 @@ header .layout-grid {
   .values img {
     padding: 20px 80px 0;
     margin: 10px 0;
+  }
+}
+@media (max-width: 479px) {
+  .home-header-component {
+    grid-template-columns: 1fr;
   }
 }
