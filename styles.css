@@ -98,7 +98,13 @@ nav a {
 nav .active {
   border-bottom: 1px solid var(--font-color);
 }
-
+.navbar-light .navbar-toggler {
+  color: transparent;
+  border-color: transparent;
+}
+.navbar-light .navbar-toggler-icon {
+  background-image: url(/svg/hamburgericon.svg) !important;
+}
 p {
   font-size: 16px;
   line-height: 21px;
